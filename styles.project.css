@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.project{
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+a{
+    color: black;
+}
+.Home{
+    text-align: center;
+    margin-top: 10%;
+}
+.showprojects{
+    border:solid;
+    border-color: rgb(148, 148, 153);
+}
