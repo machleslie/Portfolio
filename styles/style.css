@@ -22,7 +22,7 @@ body{
 }
 p{
     margin-left: 8%;
-    font-size: 20px;
+    font-size: 1.3rem;
     padding-top: 5px;
 }
 .nameandgreeting{
@@ -34,7 +34,7 @@ p{
     display: flex;
     text-align: center;
     justify-content: space-between;
-    font-size: 30px;
+    font-size: 1.7rem;
     
 }
 .skills{
@@ -58,4 +58,21 @@ h2{
 }
 a{
     color: black;
+}
+@media (max-width : 1201px){
+    .descriptionpage{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .list{
+        flex-direction: column;
+        font-size: 0.8rem;
+    }
+    p{
+        font-size: 0.8rem;
+    }
+     h1{
+        font-size: 3rem;
+     }
+    
 }
