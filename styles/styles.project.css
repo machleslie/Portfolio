@@ -22,5 +22,15 @@ a{
 }
 .showprojects{
     border:solid;
-    border-color: rgb(148, 148, 153);
+    border-color: rgb(1, 1, 1);
+    box-shadow: 0.5em 0.5em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+img{
+    width: 100%;
+}
+.images{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
